@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav_gtaph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.youtubeapi.fragments.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/libraryFragment"
+        android:name="com.example.youtubeapi.fragments.LibraryFragment"
+        android:label="fragment_library"
+        tools:layout="@layout/fragment_library" />
+    <fragment
+        android:id="@+id/createFragment"
+        android:name="com.example.youtubeapi.fragments.CreateFragment"
+        android:label="fragment_create"
+        tools:layout="@layout/fragment_create" />
+    <fragment
+        android:id="@+id/exploreFragment"
+        android:name="com.example.youtubeapi.fragments.ExploreFragment"
+        android:label="fragment_explore"
+        tools:layout="@layout/fragment_explore" />
+    <fragment
+        android:id="@+id/subscribeFragment"
+        android:name="com.example.youtubeapi.fragments.SubscribeFragment"
+        android:label="fragment_subscribe"
+        tools:layout="@layout/fragment_subscribe" />
+    <fragment
+        android:id="@+id/channelListFragment"
+        android:name="com.example.youtubeapi.fragments.ChannelListFragment"
+        android:label="fragment_channel_list"
+        tools:layout="@layout/fragment_channel_list" />
+    <fragment
+        android:id="@+id/videoFragment"
+        android:name="com.example.youtubeapi.fragments.VideoFragment"
+        android:label="fragment_video"
+        tools:layout="@layout/fragment_video" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.youtubeapi.fragments.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.youtubeapi.fragments.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/watchLaterFragment"
+        android:name="com.example.youtubeapi.fragments.WatchLaterFragment"
+        android:label="fragment_watch_later"
+        tools:layout="@layout/fragment_watch_later" />
+    <fragment
+        android:id="@+id/moviesShowFragment"
+        android:name="com.example.youtubeapi.fragments.MoviesShowFragment"
+        android:label="fragment_movies_show"
+        tools:layout="@layout/fragment_movies_show" />
+    <fragment
+        android:id="@+id/yourVideosFragment"
+        android:name="com.example.youtubeapi.fragments.YourVideosFragment"
+        android:label="fragment_your_videos"
+        tools:layout="@layout/fragment_your_videos" />
+</navigation>

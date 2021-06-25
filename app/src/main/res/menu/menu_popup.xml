@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/save_later"
+        android:title="Save to watch later" />
+    <item android:id="@+id/save_playlist"
+        android:title="Save to playlist" />
+    <item android:id="@+id/share"
+        android:title="Share" />
+    <item android:id="@+id/notInterested"
+        android:title="Not interested" />
+    <item android:id="@+id/notRecommend"
+        android:title="Don't recommend channel" />
+    <item android:id="@+id/report"
+        android:title="Report" />
+</menu>
